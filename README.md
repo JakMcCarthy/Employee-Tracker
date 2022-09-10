@@ -37,5 +37,5 @@ THEN I am prompted to select an employee to update and their new role and this i
 * inquirer
 * console.table
 
-## Contribution:
+## Contribution
 Study Group: Jackson, Sarah, Ricky, Susan, Chris P., Aaron
