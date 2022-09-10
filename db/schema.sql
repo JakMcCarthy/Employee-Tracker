@@ -3,7 +3,7 @@ CREATE TABLE department (
     name VARCHAR(30)
 );
 
-CREATE TABLE role (
+CREATE TABLE role_id (
     id INT PRIMARY KEY AUTO_INCREMENT,
     title VARCHAR(30),
     salary DECIMAL,
