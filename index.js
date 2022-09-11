@@ -1,7 +1,4 @@
 const inquirer = require("inquirer");
-const db = require('db');
-
-
 
 const mainMenu = [
     {
@@ -367,9 +364,9 @@ const mainMenu = [
     ],
   };
   
-  function mainMenuPrompt() {
+  function mainMenuPrompt(questions) {
     answers = "";
-    inquirer.prompt(questions.mainMenu).then((answers) => {
+    inquirer.prompt(questions.main).then((answers) => {
   
       let view = answers.view;
       let remove = answers.remove;
