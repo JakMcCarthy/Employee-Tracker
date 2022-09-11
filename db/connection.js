@@ -8,7 +8,7 @@ const db = mysql.createConnection(
     {
         host: 'localhost',
         user: 'root',
-        password: 'Shyriiwook1@',
+        password: 'Arsenal23>?',
         database: 'employee_tracker',
         rowsAsArray: true
     },
