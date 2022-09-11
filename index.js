@@ -1,5 +1,5 @@
 const inquirer = require("inquirer");
-const db = require('db/connection');
+const db = require('db');
 
 
 
@@ -239,7 +239,7 @@ const mainMenu = [
       message: `Please enter the id of the record you would like to remove `,
     },
   ];
-  const updateRecord = {
+  const newRecord = {
     recordId: [
       {
         prefix: "",
