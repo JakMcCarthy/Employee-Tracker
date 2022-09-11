@@ -366,7 +366,7 @@ const mainMenu = [
   
   function mainMenuPrompt(questions) {
     answers = "";
-    inquirer.prompt(questions.main).then((answers) => {
+    inquirer.prompt(questions).then((answers) => {
   
       let view = answers.view;
       let remove = answers.remove;
